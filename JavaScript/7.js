@@ -7,7 +7,7 @@
 let str = "condition";
 let answer = ""; 
 
-for (ch of str) {
+for (let ch of str) {
   if ("coder".includes(ch)) {
     answer += ch;
   }

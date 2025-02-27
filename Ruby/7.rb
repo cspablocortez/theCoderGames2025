@@ -11,12 +11,4 @@ def all_words_caps?(str)
   end
 end
 
-arr = [1, 3, 5, 7, 9]
-
-def all_odd?(arr)
-  arr.all? do |n|
-    n.odd?
-  end
-end
-
-puts all_odd?(arr)
+puts all_words_caps?(str) ? "Yes" : "No"
