@@ -4,14 +4,29 @@
 // letter. An example would be: 'condition' would be printed as 'codo'.
 // (40pts)
 
-let str = "condition";
-let answer = ""; 
+// 1. Declare a variable and assign it a string value
 
-for (let ch of str) {
-  if ("coder".includes(ch)) {
-    answer += ch;
-  }
+let str = "condition";
+let answer = "";
+str = str.split("")
+
+for (let char of str) {
+    if (char == "c" || char == "o" || char == "d" || char == "e" || char == "r") {
+        answer += char;
+    }
 }
 
-console.log(answer);
-// -> codo
+console.log(answer)
+
+
+// Q: Is the current letter c, o, d, e, r ??
+
+// C - YES
+// O - YES
+// N - NO
+// D - YES
+// I - NO
+// T - NO
+// I - NO
+// O - YES
+// N - NO
